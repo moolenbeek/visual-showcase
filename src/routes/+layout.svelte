@@ -6,6 +6,6 @@
     let { data, children }: { data: LayoutData, children: Snippet } = $props();
 </script>
 
-<div class="min-h-screen bg-primary text-primary-foreground">
+<div class="min-h-screen">
     {@render children()}
 </div>
