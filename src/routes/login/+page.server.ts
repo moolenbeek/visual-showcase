@@ -9,7 +9,7 @@ import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
 	if (event.locals.user) {
-		return redirect(302, '/demo/lucia');
+		return redirect(302, '/');
 	}
 	return {};
 };
@@ -83,7 +83,7 @@ export const actions: Actions = {
 		} catch (e) {
 			return fail(500, { message: 'An error has occurred' });
 		}
-		return redirect(302, '/demo/lucia');
+		return redirect(302, '/');
 	},
 };
 
