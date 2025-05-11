@@ -8,5 +8,5 @@
 
 <h1>Hi, {data.user.username}!</h1>
 <form method='post' action='?/logout' use:enhance>
-	<button><Button>Sign out</Button></button>
+	<Button type="submit">Sign out</Button>
 </form>
