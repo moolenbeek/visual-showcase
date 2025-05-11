@@ -1,6 +1,7 @@
 <script lang="ts">
     import { Button } from '$lib/components/ui/button';
     import * as Table from '$lib/components/ui/table';
+    import { Input } from '$lib/components/ui/input';
     let { data } = $props();
 </script>
 
@@ -15,7 +16,7 @@
         {#each data.categories as category}
             <Table.TableRow>
                 <Table.TableCell>{category.id}</Table.TableCell>
-                <Table.TableCell>{category.name}</Table.TableCell>
+                <Table.TableCell><Input type="text" value={category.name} /></Table.TableCell>
             </Table.TableRow>
         {/each}
     </Table.TableBody>
