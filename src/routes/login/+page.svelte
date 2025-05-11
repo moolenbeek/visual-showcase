@@ -16,7 +16,7 @@
 		Password
 		<input type='password' name='password' />
 	</label>
-	<button>Login</button>
-	<button formaction='?/register'>Register</button>
+	<Button type="submit">Login</Button>
+	<Button formaction='?/register'>Register</Button>
 </form>
 <p style='color: red'>{form?.message ?? ''}</p>
