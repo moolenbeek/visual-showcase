@@ -24,7 +24,7 @@
     <Table.Table>
       <Table.TableHeader>
         <Table.TableRow>
-          <Table.TableHead>Name</Table.TableHead>
+          <Table.TableHead>Categories</Table.TableHead>
           <Table.TableHead>Actions</Table.TableHead>
         </Table.TableRow>
       </Table.TableHeader>
