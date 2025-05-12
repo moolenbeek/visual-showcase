@@ -98,3 +98,15 @@
     </Table.Table>
   </CardContent>
 </Card>
+
+<Card class="mt-4">
+    <CardContent>
+        <Table.Table>
+            <Table.TableHeader>
+                <Table.TableRow>
+                    <Table.TableHead>Gallery</Table.TableHead>
+                </Table.TableRow>
+            </Table.TableHeader>
+        </Table.Table>
+    </CardContent>
+</Card>
