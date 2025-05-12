@@ -25,7 +25,6 @@
       <Table.TableHeader>
         <Table.TableRow>
           <Table.TableHead>Categories</Table.TableHead>
-          <Table.TableHead>Actions</Table.TableHead>
         </Table.TableRow>
       </Table.TableHeader>
       <Table.TableBody>
